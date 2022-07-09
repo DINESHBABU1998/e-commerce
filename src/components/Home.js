@@ -1,9 +1,22 @@
 import React from 'react'
+import { Provider } from './Createcontext'
+import Top from './Top'
+import Topaccs from './Topaccs'
+import Topfas from './Topfas'
+import Toplap from './Toplap'
+import Topmob from './Topmob'
 
-
-const Home = () => {
+function Home() {
   return (
-    <h1>Home</h1>
+    <div>
+      <Provider>
+        <Top/>
+        <Toplap/>
+        <Topmob/>
+        <Topfas/>
+        <Topaccs/>
+      </Provider>
+    </div>
   )
 }
 
