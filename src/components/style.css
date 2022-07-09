@@ -22,7 +22,7 @@
 
 .text {
     text-decoration: none;
-    font: normal normal medium 18px/22px Montserrat;
+    font-family: sans-serif;
     font-size: 25px;
     font-style: oblique;
     font-weight: 700;
