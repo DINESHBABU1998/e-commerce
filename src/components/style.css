@@ -325,3 +325,8 @@
     font-weight: 900;
     text-transform: uppercase;
 }
+input{
+    position: relative;
+    top: 200px;
+    left: 400px;
+}
