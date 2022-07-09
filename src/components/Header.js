@@ -16,9 +16,6 @@ return (
          <div>
           <NavLink className="text1" to='/profile'><i class="fa-solid fa-user"></i>My Profile</NavLink>
           <NavLink className="text2" to='/addcart'><i class="fa-solid fa-cart-arrow-down"></i>Cart</NavLink>
-          <form>
-            <input className='search' type='search' placeholder='Search'/>
-          </form>
           </div>
       </div> 
         
